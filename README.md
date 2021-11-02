@@ -1,5 +1,5 @@
 # SmartWater (Group 7)
-_Making smarter decisions with the water in your household applicances_
+_Making smarter decisions with the water in your household_
 
 ### :busts_in_silhouette: Members:
 * Alex Chan 
