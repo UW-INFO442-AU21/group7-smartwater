@@ -3,6 +3,7 @@ Making smarter decisions with the water in your household applicances
 
 
 Alex Chan, Fanny Mai, Yenny Park, Jason Tsai, Albina Udas.
-Hi
 
-Good morning
+### Why
+
+### Features
