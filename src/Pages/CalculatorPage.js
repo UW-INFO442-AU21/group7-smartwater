@@ -1,19 +1,15 @@
-import React, { Component, useState, useEffect } from 'react';
-import Navigation from '../Components/Navigation';
+import React, {useState} from 'react';
 import {NavBar} from '../Components/NavBar';
-import { useForm } from "react-hook-form";
 
 function CalculatorPage() {
 
   // contains the values inputted by the user 
   const [currentSum,setCurrentSum]=useState(0);
-  const [clear,setClear]=useState(false);
 
 
   // converts the minutes input into gallons
   const Add=(e)=>{
     e.preventDefault();
-    if(clear) setClear(false);
     let currentNum=document.querySelector('#num').value
     if(currentNum=='')
     return;
