@@ -1,5 +1,6 @@
 import React, { Component, useState, useEffect } from 'react';
 import Navigation from '../Components/Navigation';
+import {NavBar} from '../Components/NavBar';
 import { useForm } from "react-hook-form";
 
 function CalculatorPage() {
@@ -23,7 +24,7 @@ function CalculatorPage() {
   }
   return (
     <div className="App">
-      <Navigation />
+      <NavBar />
       <div className="app-title">
         <h1> Basic Form Calculator</h1>
       </div>
