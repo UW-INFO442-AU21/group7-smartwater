@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
       <Router>
           <Switch>
-            <Route path="/" exact component={() => <Home />} />
+            <Route path="/" exact component={() => <KitchenPage/>} />
             <Route path="/calculator" exact component={() => <CalculatorPage />} />
-            <Route path="/kitchen" exact component={() => <KitchenPage />} />
+            <Route path="/kitchenkitchen" exact component={() => <KitchenPage />} />
           </Switch>
         </Router>
       </header>
