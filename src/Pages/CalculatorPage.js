@@ -1,10 +1,11 @@
 import React from 'react';
 import Navigation from '../Components/Navigation';
+import {NavBar} from '../Components/NavBar';
 
 export default function CalculatorPage() {
     return (
         <div>
-            <Navigation />
+            <NavBar />
             <p>Test for calculator page</p>
         </div>
     )
