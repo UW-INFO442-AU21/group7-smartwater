@@ -13,7 +13,7 @@ code {
 }
 
 .link {
-  margin: 0 2px;
+  margin: 0 0px;
   text-decoration: none;
   font-size: 20px;
   color: black;
@@ -32,13 +32,16 @@ code {
   background-color: #D7E3F0;
   }
 
-h1 .bluecolored {
-  background-color: #D7E3F0; 
+
+.firstsection {
+  background-color: #D7E3F0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
-
-.bluecolored {
-  background-color: #D7E3F0;
+.secondsection, .thirdsection {
+  padding-bottom: 2rem;
+  padding-top: 2rem; 
 }
 
 
@@ -79,9 +82,6 @@ h1 .bluecolored {
   text-decoration: none;
   cursor: pointer;
 }
-
-
-
 
 
 #links {
