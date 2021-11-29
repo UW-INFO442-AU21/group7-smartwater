@@ -11,7 +11,10 @@ function NavBar(props) {
     }
     return (
         <nav id="navbar">
-            <div className={activity}>
+            <div id="title">
+                <h1>H₂Know</h1>
+            </div>
+            <div id="links" className={activity}>
                 <NavLink className="link" exact to="/" activeClassName="activeLink">Home</NavLink>
                 <NavLink className="link" exact to="/kitchen" activeClassName="activeLink">Kitchen</NavLink>
                 <NavLink className="link" exact to="/calculator" activeClassName="activeLink">Calculator</NavLink>
