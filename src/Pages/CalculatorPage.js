@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {NavBar} from '../Components/NavBar';
 import duck from './img/duck.png';
+import bottle from './img/bottle.png';
 
 function CalculatorPage() {
 
@@ -19,6 +20,16 @@ function CalculatorPage() {
     document.querySelector('#num').value="";
       
   }
+
+  const list = [];
+  for (var i = 0; i < currentSum; i++) {
+    list.push('bottle');
+  }
+  const images =  list.map(image => {
+    return <img src={bottle} alt="bottle"/>
+   })
+
+
   return (
     <div className="App">
       <NavBar />
@@ -36,7 +47,7 @@ function CalculatorPage() {
             <button onClick={Add}>Submit</button>
       </form>
       {/* <input type="number" id="result" value={currentSum}  readOnly /> */}
-      {currentSum > 0 && <p>You are using {currentSum} gallons of water.</p>}
+      {currentSum > 0 && <p>You are using {currentSum} gallons of water. {images}</p>}
       {currentSum > 20 && <p>You are using too much water. Consider reducing the amount of time spent in the shower.</p>}
       {currentSum > 0  && currentSum <= 20 && <p>You are within the 8 minute timeframe. </p>}
 
