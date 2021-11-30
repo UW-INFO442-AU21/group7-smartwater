@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {NavBar} from '../Components/NavBar';
+import duck from './img/duck.png';
 
 function CalculatorPage() {
 
@@ -24,6 +25,7 @@ function CalculatorPage() {
       <div className="firstsection">
         <h1>Get scrubby...</h1>
         <p>How long do you shower? How often do you shower? Are you aware of the amount of water used when showering for even just a single minute? We have the convenience of having access to fresh, clean, water whenever we want it and need it. However, the amount of water we are wasting is endless, and soon enough, we will not have enough fresh water left on this planet. One of the largest methods in wasting water is through the showers. The average American showers for 8.2 minutes and uses about 17.2 gallons. While this does not sound like much, or is hard to visualize, this is actually a tremendous amount of water. Our calculator allows us to visualize how much water we are using to solely shower, and educates us on our water usage habits.</p>
+        <img align = "right" src={duck} alt="duck" />
       </div>
       <div className="app-title">
         <h1> Enter Shower Time</h1>
