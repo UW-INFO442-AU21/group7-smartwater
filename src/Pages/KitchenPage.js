@@ -1,7 +1,9 @@
 import React from 'react';
 import Navigation from '../Components/Navigation';
 import {NavBar} from '../Components/NavBar';
-import faucet from './img/faucet.png';
+import faucet from './img/faucet.png'
+import handwash from './img/handwash.png';
+import dishwash from './img/dishwasher.png';
 
 
 export default function KitchenPage() {
@@ -16,7 +18,7 @@ export default function KitchenPage() {
          <button id="myBtn"  onClick={()=> {
           let modal = document.getElementById("myModal");
           modal.style.display = "block";
-        }}><img src={faucet}></img></button>
+        }}><img src={handwash}></img></button>
 
       <div id="myModal" class="modal">
         <div class="modal-content">
@@ -42,7 +44,7 @@ Repeat this process until all of your dishes are done. Feel free to incrementall
       <button id="mydishBtn" onClick={()=>{
         let modal = document.getElementById("mydishModal");
         modal.style.display = "block";
-      }}>Dish</button>
+      }}><img src={dishwash}></img></button>
       <div id="mydishModal" class="modal">
         <div class="modal-content">
         
