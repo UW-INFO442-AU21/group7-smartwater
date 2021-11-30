@@ -17,7 +17,7 @@ function NavBar(props) {
             <div id="links" className={activity}>
                 <NavLink className="link" exact to="/" activeClassName="activeLink">Home</NavLink>
                 <NavLink className="link" exact to="/kitchen" activeClassName="activeLink">Kitchen</NavLink>
-                <NavLink className="link" exact to="/calculator" activeClassName="activeLink">Calculator</NavLink>
+                <NavLink className="link" exact to="/calculator" activeClassName="activeLink">Bathroom</NavLink>
             </div>
         </nav>  
     );

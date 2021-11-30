@@ -35,13 +35,11 @@ code {
 
 .firstsection {
   background-color: #D7E3F0;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding: 2rem;
 }
 
 .secondsection, .thirdsection {
-  padding-bottom: 2rem;
-  padding-top: 2rem; 
+  padding: 2rem;
 }
 
 
