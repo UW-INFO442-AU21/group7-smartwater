@@ -11,8 +11,10 @@ export default function Home() {
             <NavBar />
             <div className="firstsection">
             <h1>Let’s save water and our environment.</h1>
-            <p>Water is a vital resource and essential for all of life. By wasting water, people are taking a vital resource for granted and limiting availability for those who actually need it. It is important that we take necessary actions in conserving it for our future.</p>
-            <img align = "right" id="waterdrop" src={pic1} alt="water drops" />
+            <p className="waterparagraph">
+                Water is a vital resource and essential for all of life. By wasting water, people are taking a vital resource for granted and limiting availability for those who actually need it. It is important that we take necessary actions in conserving it for our future.
+            </p>
+            <img id="waterdrop" src={pic1} alt="water drops" />
 
 
             </div>

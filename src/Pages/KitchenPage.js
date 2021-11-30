@@ -16,7 +16,7 @@ export default function KitchenPage() {
          <button id="myBtn"  onClick={()=> {
           let modal = document.getElementById("myModal");
           modal.style.display = "block";
-        }}><img src="img/homepic1.png"></img></button>
+        }}><img src={faucet}></img></button>
 
       <div id="myModal" class="modal">
         <div class="modal-content">
