@@ -33,10 +33,16 @@ code {
   }
 
 
-.firstsection {
-  background-color: #D7E3F0;
-  padding: 2rem;
-}
+  .firstsection {
+    background-color: #D7E3F0;
+    padding: 2rem;
+    overflow: hidden;
+  }
+  
+  .secondsection, .thirdsection {
+    padding: 3rem;
+  }
+  
 
 .secondsection, .thirdsection {
   padding: 2rem;
@@ -86,7 +92,65 @@ code {
   text-align: right;
 }
 
-#title {
-  display: inline-block;
+#shower {
+  float: right;
+  width: 20%;
 }
 
+@media (max-width: 800px){
+  .firstsection img {
+    display: none;
+  }
+
+  .waterparagraph {
+    width: 100%;
+  }
+
+  .secondsection img {
+    display: none;
+  }
+
+  #freshwaterparagraph {
+    width: 100%;
+  }
+
+  .thirdsection img {
+    display: none;
+  }
+
+  #dailyhabitsparagraph {
+    width: 100%;
+  }
+}
+
+.waterparagraph {
+  float: left;
+  width: 70%;
+}
+
+#waterdrop {
+  float: right;
+  width: 20%;
+}
+
+#waterpond {
+  float: left;
+  width: 20%;
+}
+
+#freshwaterparagraph {
+  float: right;
+  width: 70%;
+}
+
+.thirdsection {
+  padding: 5rem; 
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+
+#dailyhabitsparagraph {
+  float: left;
+  width: 70%;
+}
