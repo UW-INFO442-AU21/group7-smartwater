@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Navigation from '../Components/Navigation';
 import {NavBar} from '../Components/NavBar';
+import pic1 from './img/homepic1.png';
+import pic2 from './img/homepic2.png';
+import pic3 from './img/homepic3.png';
 
 export default function Home() {
     return (
@@ -9,6 +12,9 @@ export default function Home() {
             <div className="firstsection">
             <h1>Let’s save water and our environment.</h1>
             <p>Water is a vital resource and essential for all of life. By wasting water, people are taking a vital resource for granted and limiting availability for those who actually need it. It is important that we take necessary actions in conserving it for our future.</p>
+            <img align = "right" id="waterdrop" src={pic1} alt="water drops" />
+
+
             </div>
             <div className="secondsection">
             <h1>Freshwater is being depleted.</h1>
@@ -17,6 +23,7 @@ export default function Home() {
                when brushing their teeth. All these little actions will amount to an accumulation of water waste
                over time and it is barely noticeable by the masses due to the fact that water is cheap and easily
                accessible in the US.</p>
+               <img align = "left" id="waterdrop" src={pic2} alt="water pond" />
             </div>
             <div className="thirdsection">
             <h1>Daily habits waste water.</h1>
@@ -24,6 +31,7 @@ export default function Home() {
                You can start by making small changes throughout your day that can help conserve water. While this may sound like there is no juice, it will make a big difference. If you, your friends, and family adopt healthy water saving habits, we will be able to reach our long-term goal of reducing water waste. Water is a vital part of our ecosystem and by conserving it, 
                people are able to contribute to acts that will sustain food production and sanitation.</p>
             </div>
+            <img align = "right" id="waterdrop" src={pic3} alt="shower" />
         </div>
     )
 }
