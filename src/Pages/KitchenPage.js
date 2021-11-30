@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../Components/Navigation';
 import {NavBar} from '../Components/NavBar';
+import faucet from './img/faucet.png';
 
 
 export default function KitchenPage() {
