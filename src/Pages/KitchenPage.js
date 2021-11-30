@@ -11,9 +11,11 @@ export default function KitchenPage() {
     <div>
       <NavBar />
       <div className="firstsection">
-      <h1>Let this sink in...</h1>
+        <div className='sinkparagraph'>
+        <h1>Let this sink in...</h1>
       <p>If you are viewing this page, you likely have access to a home with a kitchen. Similarly, you (or someone you know) either hand washes dishes or uses the dishwasher on a weekly basis. Did you know that washing a load of dishes by hand uses about 27 gallons of water? To give you a better picture, 27 gallons of water equates to 432 entire bottles of water. These were the findings of a survey conducted at the University of Bonn in Germany. Many do not know how much water they use with tasks that seem menial and small. And while it is well known that dishwashing is a better alternative to handwashing, there are still precautions you should take to conserve your water usage with this medium as well. While hand washing and dishwashing dishes might seem like little actions, wasteful habits like these accumulate over time to a large overuse of water. If you and your family would like to take steps to conserve water for our planet and environment, please look below for action items. </p>
-      <img align = "right" src={faucet} alt="faucet" width="300" height="400"/>
+        </div>
+      <img align = "right" src={faucet} id='faucet' alt="faucet" width="300" height="400"/>
       </div>
          <button id="myBtn"  onClick={()=> {
           let modal = document.getElementById("myModal");

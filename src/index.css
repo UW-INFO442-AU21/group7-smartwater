@@ -154,3 +154,13 @@ code {
   float: left;
   width: 70%;
 }
+
+.sinkparagraph {
+  float: left;
+  width: 70%;
+}
+
+#faucet {
+  float: right;
+  width: 20%;
+}
