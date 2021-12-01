@@ -128,8 +128,6 @@ code {
   width: 70%;
 }
 
-
-
 #waterdrop, #duck {
   float: right;
   width: 20%;
@@ -174,4 +172,14 @@ code {
   align-items: center;
   margin: auto;
   text-align: center;
+}
+
+.calcbox {
+  
+  align-items: center;  
+}
+
+#calcbox {
+  align-items: center;
+  display: flex;
 }

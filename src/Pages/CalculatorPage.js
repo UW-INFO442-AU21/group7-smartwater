@@ -38,6 +38,7 @@ function CalculatorPage() {
         <p className="duckparagraph">How long do you shower? How often do you shower? Are you aware of the amount of water used when showering for even just a single minute? We have the convenience of having access to fresh, clean, water whenever we want it and need it. However, the amount of water we are wasting is endless, and soon enough, we will not have enough fresh water left on this planet. One of the largest methods in wasting water is through the showers. The average American showers for 8.2 minutes and uses about 17.2 gallons. While this does not sound like much, or is hard to visualize, this is actually a tremendous amount of water. Our calculator allows us to visualize how much water we are using to solely shower, and educates us on our water usage habits.</p>
         <img align = "right" id="duck" src={duck} alt="duck" />
       </div>
+      <div className="secondsection">
       <div className="app-title">
         <h1> Enter Shower Time</h1>
       </div>
@@ -52,7 +53,7 @@ function CalculatorPage() {
       {currentSum > 0 && <p>You are using {currentSum} gallons of water. {images}</p>}
       {currentSum > 20 && <p>You are using too much water. Consider reducing the amount of time spent in the shower.</p>}
       {currentSum > 0  && currentSum <= 20 && <p>You are within the 8 minute timeframe. </p>}
-
+      </div>
       <div className="firstsection">
         <h1>Tips & Suggestions </h1>
         <li>Turn off water when not rinsing (Navy shower method)</li>

@@ -22,7 +22,7 @@ export default function KitchenPage() {
       </p>
       <img align = "right" id="faucet" src={faucet} alt="faucet" width="300" height="400"/>
       </div>
-      <p className="center">Select your preferred method of dishwashing.</p>
+      <p className="center"> Select your preferred method of dishwashing. </p>
       <div className = "center">
         <div className = "secondsection" id="selectmethod" >
         
