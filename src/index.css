@@ -123,12 +123,14 @@ code {
   }
 }
 
-.waterparagraph {
+.waterparagraph, .duckparagraph {
   float: left;
   width: 70%;
 }
 
-#waterdrop {
+
+
+#waterdrop, #duck {
   float: right;
   width: 20%;
 }
@@ -137,6 +139,7 @@ code {
   float: left;
   width: 20%;
 }
+
 
 #freshwaterparagraph {
   float: right;
@@ -163,4 +166,12 @@ code {
 #faucet {
   float: right;
   width: 20%;
+}
+
+.center {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
 }
