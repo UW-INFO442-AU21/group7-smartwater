@@ -36,8 +36,9 @@ export default function Home() {
                     You can start by making small changes throughout your day that can help conserve water. While this may sound like there is no juice, it will make a big difference. If you, your friends, and family adopt healthy water saving habits, we will be able to reach our long-term goal of reducing water waste. Water is a vital part of our ecosystem and by conserving it, 
                     people are able to contribute to acts that will sustain food production and sanitation.</p>
                 </div>
-                <img align = "right" id="shower" src={pic3} alt="shower" />
+                
             </div>
+            <img align = "right" id="shower" src={pic3} alt="shower"/>
         </div>
     )
 }

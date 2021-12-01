@@ -93,8 +93,9 @@ code {
 }
 
 #shower {
-  float: right;
+  display: inline-block;
   width: 20%;
+  float: right;
 }
 
 @media (max-width: 800px){
@@ -138,7 +139,6 @@ code {
   width: 20%;
 }
 
-
 #freshwaterparagraph {
   float: right;
   width: 70%;
@@ -151,10 +151,7 @@ code {
   text-align: left;
 }
 
-#dailyhabitsparagraph {
-  float: left;
-  width: 70%;
-}
+
 
 .sinkparagraph {
   float: left;
@@ -175,11 +172,15 @@ code {
 }
 
 .calcbox {
-  
   align-items: center;  
 }
 
 #calcbox {
   align-items: center;
   display: flex;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

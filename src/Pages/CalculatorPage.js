@@ -63,7 +63,6 @@ function CalculatorPage() {
 <li> Insulate your hot water pipes. This guarantees that you don’t need to wait longer to wait for the water to heat up. </li>
 <li> Create a playlist for showering! This will allow you to have an estimate of time and be aware of the approximate time you are spending in the shower. </li>
       </div>
-
     </div>
   );
 }
