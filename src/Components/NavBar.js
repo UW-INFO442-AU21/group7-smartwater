@@ -11,6 +11,7 @@ function NavBar(props) {
     }
     return (
         <nav id="navbar">
+               
             <div id="title" style={{display : 'inline'}}>
                 <h1>
                     <NavLink className="link" exact to="/" activeClassName="activeLink">H₂Know</NavLink>
