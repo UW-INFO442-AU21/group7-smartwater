@@ -44,11 +44,19 @@ code {
     padding: 2rem;
     overflow: hidden;
   }
-  
-  .secondsection, .thirdsection {
-    padding: 3rem;
+
+  .showersection {
+    padding: 2rem;
+    text-align: center;
   }
-  
+
+  #calcbox {
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .secondsection, .thirdsection {
   padding: 2rem;
@@ -177,16 +185,20 @@ code {
   text-align: center;
 }
 
-.calcbox {
-  align-items: center;  
-}
-
-#calcbox {
-  align-items: center;
-  display: flex;
-}
-
-img {
-  width: 100%;
+#shower {
+  width: 225px;
   height: auto;
 }
+
+#waterdrop {
+  width: 250px;
+  height: auto;
+}
+
+#waterpond {
+  width: 275px;
+  height: auto;
+}
+
+
+
