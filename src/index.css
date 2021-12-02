@@ -210,3 +210,14 @@ code {
 .dishwash {
   padding-top: 3rem;
 }
+
+#links {
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+#title {
+  padding-left: 1.7rem;
+  padding-top: 1rem;
+}
+
