@@ -102,7 +102,7 @@ code {
 }
 
 #shower {
-  display: inline-block;
+  
   width: 20%;
   float: right;
 }
@@ -183,6 +183,8 @@ code {
 #shower {
   width: 225px;
   height: auto;
+  margin-top: 110px;
+  margin-right: 40px;
 }
 
 #waterdrop {
@@ -195,5 +197,11 @@ code {
   height: auto;
 }
 
+#faucet {
+  width: 230px;
+  height: auto; 
+}
 
-
+.dishwash {
+  padding-top: 3rem;
+}

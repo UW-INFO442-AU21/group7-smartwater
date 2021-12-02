@@ -22,6 +22,7 @@ export default function KitchenPage() {
       </p>
       <img align = "right" id="faucet" src={faucet} alt="faucet" width="300" height="400"/>
       </div>
+      <div className = "dishwash">
       <p className="center"> Select your preferred method of dishwashing. </p>
       <div className = "center">
         <div className = "secondsection" id="selectmethod" >
@@ -82,7 +83,7 @@ export default function KitchenPage() {
         </div>
       </div> 
       </div>
-     
+     </div>
     </div>
   )
 }
