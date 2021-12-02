@@ -193,8 +193,10 @@ code {
 }
 
 #waterdrop {
-  width: 250px;
+  width: 230px;
   height: auto;
+  position: relative; 
+  top: -60px;
 }
 
 #waterpond {
@@ -205,7 +207,13 @@ code {
 #faucet {
   width: 230px;
   height: auto; 
+  position: relative; 
+  top: -80px;
 }
+ #duck {
+  position: relative; 
+  top: -60px;
+ }
 
 .dishwash {
   padding-top: 3rem;
@@ -220,4 +228,5 @@ code {
   padding-left: 1.7rem;
   padding-top: 1rem;
 }
+
 

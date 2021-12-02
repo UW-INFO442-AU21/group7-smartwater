@@ -22,12 +22,13 @@ export default function KitchenPage() {
       </p>
       <img align = "right" id="faucet" src={faucet} alt="faucet" width="300" height="400"/>
       </div>
-      <div className = "dishwash">
-      <p className="center"> Select your preferred method of dishwashing. </p>
-      <div className = "center">
+      <div className = "showersection">
+      <h3 className="center"> Select your preferred method of dishwashing. </h3>
+      </div>
+      
         <div className = "secondsection" id="selectmethod" >
         
-        </div>
+
          <button id="myBtn"  onClick={()=> {
           let modal = document.getElementById("myModal");
           modal.style.display = "block";
@@ -62,6 +63,7 @@ export default function KitchenPage() {
           </p>
         </div>
       </div>
+
       
       <button id="mydishBtn" onClick={()=>{
         let modal = document.getElementById("mydishModal");
@@ -84,6 +86,8 @@ export default function KitchenPage() {
       </div> 
       </div>
      </div>
-    </div>
+  
+     
+   
   )
 }
