@@ -38,7 +38,7 @@ export default function Home() {
                 </div>
                 
             </div>
-            <img align = "right" id="shower" src={pic3} alt="shower"/>
+            <img align = "right" id="shower" src={pic3} alt="shower" />
         </div>
     )
 }
