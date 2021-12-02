@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#title .link{
+  font-size: 36px;
+}
+
 .link {
   margin: 0 0px;
   text-decoration: none;
@@ -26,7 +30,8 @@ code {
 }
 
 #navbar {
-
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   margin: 0 0 0 0;
   padding: 0;
