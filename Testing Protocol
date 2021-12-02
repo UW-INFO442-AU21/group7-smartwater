@@ -1,0 +1,12 @@
+H2Know Testing Protocol
+
+1. Open web app link on Google Chrome.
+2. Perform tasks below.
+3. Open web app link on Safari.
+4. Perform tasks below.
+
+Tasks:
+1. Navigate to the Bathoom link and input a shower time of X minutes (X being greater than 0 and less than 100)
+2. Navigate to the Kitchen link and click on the Dishwater icon, read the popup, and close it.
+3. Navigate to the Kitchen link and click on the Hand washing icon, read the popup, and close it.
+4. Navigate to the Home page and scroll down to read the information.
