@@ -45,7 +45,7 @@ function CalculatorPage() {
       <p>The average shower uses 2.5 gallons per minute and lasts around 8 minutes. Put in the length of your daily shower time to find out how many gallons of water you use.</p>
       <div id="calcbox">
       <form>   
-            <input type="text" id="num" placeholder="Minutes" />
+            <input type="number" id="num" placeholder="Minutes" min="1" max="100"/>
             <button onClick={Add}>Submit</button>
       </form>
       </div>
