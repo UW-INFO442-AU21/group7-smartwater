@@ -27,9 +27,9 @@ export default function KitchenPage() {
       </div>
       
         <div className = "secondsection" id="selectmethod" >
-        
-
-         <button id="myBtn"  onClick={()=> {
+        <div>
+        <div id="buttoncenter">
+         <button id="myBtn" onClick={()=> {
           let modal = document.getElementById("myModal");
           modal.style.display = "block";
         }}><img src={handwash} width="300" height="300"></img></button>
@@ -86,7 +86,8 @@ export default function KitchenPage() {
       </div> 
       </div>
      </div>
-  
+     </div>
+     </div>
      
    
   )

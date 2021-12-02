@@ -229,4 +229,6 @@ code {
   padding-top: 1rem;
 }
 
-
+h1, h2, h3 {
+  color: #003F83;
+}
