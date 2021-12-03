@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/group7-smartwater/static/css/main.1bca556a.chunk.css",
-    "main.js": "/group7-smartwater/static/js/main.4e0f7bf8.chunk.js",
-    "main.js.map": "/group7-smartwater/static/js/main.4e0f7bf8.chunk.js.map",
+    "main.js": "/group7-smartwater/static/js/main.b5d6ccf9.chunk.js",
+    "main.js.map": "/group7-smartwater/static/js/main.b5d6ccf9.chunk.js.map",
     "runtime-main.js": "/group7-smartwater/static/js/runtime-main.d582c3e6.js",
     "runtime-main.js.map": "/group7-smartwater/static/js/runtime-main.d582c3e6.js.map",
-    "static/js/2.0632dc9e.chunk.js": "/group7-smartwater/static/js/2.0632dc9e.chunk.js",
-    "static/js/2.0632dc9e.chunk.js.map": "/group7-smartwater/static/js/2.0632dc9e.chunk.js.map",
+    "static/js/2.daf334d9.chunk.js": "/group7-smartwater/static/js/2.daf334d9.chunk.js",
+    "static/js/2.daf334d9.chunk.js.map": "/group7-smartwater/static/js/2.daf334d9.chunk.js.map",
     "static/js/3.4f3881df.chunk.js": "/group7-smartwater/static/js/3.4f3881df.chunk.js",
     "static/js/3.4f3881df.chunk.js.map": "/group7-smartwater/static/js/3.4f3881df.chunk.js.map",
     "index.html": "/group7-smartwater/index.html",
     "static/css/main.1bca556a.chunk.css.map": "/group7-smartwater/static/css/main.1bca556a.chunk.css.map",
-    "static/js/2.0632dc9e.chunk.js.LICENSE.txt": "/group7-smartwater/static/js/2.0632dc9e.chunk.js.LICENSE.txt",
+    "static/js/2.daf334d9.chunk.js.LICENSE.txt": "/group7-smartwater/static/js/2.daf334d9.chunk.js.LICENSE.txt",
     "static/media/dishwasher.8cc37dfc.png": "/group7-smartwater/static/media/dishwasher.8cc37dfc.png",
     "static/media/duck.b9f6fa5f.png": "/group7-smartwater/static/media/duck.b9f6fa5f.png",
     "static/media/faucet.c0a5ea2f.png": "/group7-smartwater/static/media/faucet.c0a5ea2f.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d582c3e6.js",
-    "static/js/2.0632dc9e.chunk.js",
+    "static/js/2.daf334d9.chunk.js",
     "static/css/main.1bca556a.chunk.css",
-    "static/js/main.4e0f7bf8.chunk.js"
+    "static/js/main.b5d6ccf9.chunk.js"
   ]
 }
