@@ -85,7 +85,7 @@ export default function KitchenPage() {
             let modal = document.getElementById("mydishModal");
             modal.style.display = "none";
         }}>&times;</span>
-        <h2>The Dishwasher</h2>
+        <h2>Dishwashing</h2>
         <p>Using a dishwasher is considered exponentially better for water conservation compared to handwashing. While it is better for the environment, 
           there are certain ways to use the dishwasher and certain brands that you can be aware of that will help in saving water. For example, the best 
           method to use the dishwasher is only when it's full. This is because the amount of dishes you load in does not change the amount of energy or water 
