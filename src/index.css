@@ -232,3 +232,9 @@ code {
 h1, h2, h3 {
   color: #003F83;
 }
+
+video {
+  width: 70%;
+  height: auto;
+  margin: 2rem;
+}

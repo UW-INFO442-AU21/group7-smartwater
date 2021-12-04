@@ -4,6 +4,7 @@ import {NavBar} from '../Components/NavBar';
 import faucet from './img/faucet.png'
 import handwash from './img/handwash.png';
 import dishwash from './img/dishwasher.png';
+import handvid from './vid/handvid.mp4'
 
 
 export default function KitchenPage() {
@@ -52,6 +53,7 @@ export default function KitchenPage() {
               this equals 352 gallons of water wasted each month. This is the tremendous size of the water used for a 6-person hot tub! With this in mind, it is better to adopt the two-basin 
               method when hand washing your dishes. Here are the steps: 
               <ol>
+              
               <li>Remove any leftover food into your compost bin. </li>
               <li> You can either gather 2 basins or use your two-basin sink for this step. You will need to fill one of them with hot water with dishwashing soap. If you do not have a two-basin sink, you can use a bucket as your 2nd basin. </li>
               <li>In the other basin or area, you will need to fill that with clean, cold water. </li>
@@ -60,6 +62,13 @@ export default function KitchenPage() {
               <li>When the dish is thoroughly clean, you can place them on a dish rack to air dry. </li>
               <li>Repeat this process until all of your dishes are done. Feel free to incrementally add water if you feel that the cold water basin is accumulating too many soap suds. </li>
               </ol>
+              <p>
+                <p>Here is a video by <a href="https://www.youtube.com/channel/UCeb_8EwnqttPH-BMDPnJ-oA">ConsciousCreating</a> on Youtube that gives helpful tips on handwashing dishes:</p>
+                    <video className="video" width="320" height="240" controls>
+                    <source src={handvid} type="video/mp4"></source>
+                    Your browser does not support the video tag. 
+                    </video>
+                </p>
           </p>
         </div>
       </div>
@@ -82,6 +91,17 @@ export default function KitchenPage() {
           method to use the dishwasher is only when it's full. This is because the amount of dishes you load in does not change the amount of energy or water 
           used for the appliance on each load. With this in mind, it is best to only use the dishwasher when it is completely full to maximize its use in an environmentally 
           conscious way. By doing this, you are saving over 320 gallons of water each year.</p>
+          <p>
+            With the brands for dishwasher, you should generally look for ones that are <a href="https://www.energystar.gov/products/dishwashers ">Energy Star certified</a>. This means that they are the best in saving energy, water, and the environment.
+            They are also better for saving money in the long term. According to their website, an Energy Star certified dishwasher will save you almost 3,870 gallons of water in its lifetime. 
+            That is enough water to fill an entire pond! Here are some brands that are Energy Star Certified:
+            <li><a href="https://www.mieleusa.com/domestic/dishwashers-1529.htm">Miele</a></li>
+            <li><a href="https://www.blombergappliances.com/products/dishwashers.html">Blomberg</a></li>
+            <li><a href="https://www.beko.com/us-en/dishwashers">Beko</a></li>
+            <li><a href="http://www.askona.com/dishwashers">Asko</a></li>
+            <li><a href="https://www.samsung.com/us/dishwashers/">Samsung</a></li>
+            
+          </p> 
         </div>
       </div> 
       </div>

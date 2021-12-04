@@ -5,6 +5,8 @@ import pic1 from './img/homepic1.png';
 import pic2 from './img/homepic2.png';
 import pic3 from './img/homepic3.png';
 
+
+
 export default function Home() {
     return (
         <div>
