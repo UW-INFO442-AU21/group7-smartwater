@@ -27,13 +27,13 @@ export default function KitchenPage() {
       <h3 className="center"> Select your preferred method of dishwashing. </h3>
       </div>
       
-        <div className = "secondsection" id="selectmethod" >
+        <div id="selectmethod" >
         <div>
         <div id="buttoncenter">
          <button id="myBtn" onClick={()=> {
           let modal = document.getElementById("myModal");
           modal.style.display = "block";
-        }}><img src={handwash} width="300" height="300"></img></button>
+        }}><img className="keep" src={handwash} width="300" height="300"></img></button>
 
       <div id="myModal" class="modal">
         <div class="modal-content">
@@ -77,7 +77,7 @@ export default function KitchenPage() {
       <button id="mydishBtn" onClick={()=>{
         let modal = document.getElementById("mydishModal");
         modal.style.display = "block";
-      }}><img src={dishwash}  width="300" height="300"></img></button>
+      }}><img className="keep" src={dishwash}  width="300" height="300"></img></button>
       <div id="mydishModal" class="modal">
         <div class="modal-content">
         

@@ -136,6 +136,15 @@ code {
   #dailyhabitsparagraph {
     width: 100%;
   }
+
+  .keep {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #shower {
+    display: none;
+  }
 }
 
 .waterparagraph, .duckparagraph {
@@ -244,3 +253,4 @@ video {
   justify-content: center;
   align-items: center;
 }
+

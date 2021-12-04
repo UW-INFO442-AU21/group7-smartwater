@@ -56,10 +56,10 @@ function CalculatorPage() {
       </div>
       <div className="firstsection">
         <h1>Tips & Suggestions </h1>
-        <li>Turn off water when not rinsing (Navy shower method)</li>
-<li>Change showerhead to Watersense one (only about $5) This not only helps conserve water, but also helps with the water bill. </li>
-<li>The duration of the shower also affects the water wasted greatly. Having a shower timer can be very helpful. It allows you to be aware of the time.</li>
-<li> Collect grey water in the shower when warming up the shower to water plants and lawn. </li>
+<li>Change showerhead to a Watersense one (only about $5) This not only helps conserve water, but also helps with the water bill. </li>
+<li>The duration of the shower also affects the water wasted greatly. Having a shower timer can be very helpful to reduce water waste.</li>
+<li> Collect grey water in the shower when warming up the shower to water plants and lawns. </li>
+<li>Turn off water when not rinsing (Navy shower method).</li>
 <li> Insulate your hot water pipes. This guarantees that you don’t need to wait longer to wait for the water to heat up. </li>
 <li> Create a playlist for showering! This will allow you to have an estimate of time and be aware of the approximate time you are spending in the shower. </li>
       </div>
