@@ -62,7 +62,6 @@ code {
   padding: 2rem;
 }
 
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -138,8 +137,8 @@ code {
   }
 
   .keep {
-    max-width: 100%;
-    height: auto;
+    max-width: 150px;
+    height: 150px;
   }
 
   #shower {
