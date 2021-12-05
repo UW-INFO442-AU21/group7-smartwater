@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/group7-smartwater/static/css/main.28ac1f4e.chunk.css",
-    "main.js": "/group7-smartwater/static/js/main.416feea5.chunk.js",
-    "main.js.map": "/group7-smartwater/static/js/main.416feea5.chunk.js.map",
+    "main.js": "/group7-smartwater/static/js/main.59418585.chunk.js",
+    "main.js.map": "/group7-smartwater/static/js/main.59418585.chunk.js.map",
     "runtime-main.js": "/group7-smartwater/static/js/runtime-main.d582c3e6.js",
     "runtime-main.js.map": "/group7-smartwater/static/js/runtime-main.d582c3e6.js.map",
     "static/js/2.daf334d9.chunk.js": "/group7-smartwater/static/js/2.daf334d9.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.d582c3e6.js",
     "static/js/2.daf334d9.chunk.js",
     "static/css/main.28ac1f4e.chunk.css",
-    "static/js/main.416feea5.chunk.js"
+    "static/js/main.59418585.chunk.js"
   ]
 }
