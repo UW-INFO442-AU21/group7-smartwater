@@ -1,4 +1,4 @@
-#H2Know Testing Protocol
+# H2Know Testing Protocol
 
 The goal of this document is to test H2Know's compatability on Google Chrome's desktop and mobile browser. The expected result is that
 the user should be able to run H2Know on both desktop and mobile and can do all the tasks.
